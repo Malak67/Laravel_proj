@@ -11,7 +11,18 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
+// Route::get('/', function()
+// {
+	// return View::make('hello');
+// });
+
+
+// Put the code here - makeitsnappy
+
+//	Route::get('/', array('as'->'home' , 'uses' => 'questions@index'));
+	Route::get('/', array('as'=>'home', 'uses'=>'questions@index'));
+
+// Route::get('/', function()
+// {
+	// echo 'Correct';
+// });
