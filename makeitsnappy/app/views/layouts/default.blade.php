@@ -1,7 +1,7 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html>
 	<head>
-		<title> {{ $title }}
+		<title> {{ $title }}</title>
 		{{ HTML::style('/css/main.css') }}
 	</head>
 	
@@ -32,7 +32,7 @@
 				&copy; Make It Snappy Q&A {{ date('Y') }}
 			</div><!-- end footer -->
 			
-		</div>
+		</div><!-- end container -->
 	</body>
 	
 </html>

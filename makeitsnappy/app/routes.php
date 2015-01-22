@@ -13,14 +13,14 @@
 
 // Route::get('/', function()
 // {
-	// return View::make('hello');
+	// return View::make('questions.index');
 // });
 
 
 // Put the code here - makeitsnappy
 
-//	Route::get('/', array('as'->'home' , 'uses' => 'questions@index'));
-	Route::get('/', array('as'=>'home', 'uses'=>'questions@index'));
+	Route::get('/', array('as'=>'home' , 'uses' => 'questions@index'));
+	// Route::get('/', array('as'=>'home', 'uses'=>'hello'));
 
 // Route::get('/', function()
 // {

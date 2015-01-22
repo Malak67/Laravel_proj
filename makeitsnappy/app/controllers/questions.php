@@ -1,15 +1,13 @@
 <?php
 
-class Questions_Controller extends BaseController
+class questions extends BaseController
 {
-	echo 'daadad';
 	public $restful = true;
 	
-	public function get_index()
+	public function index()
 	{
-		// return View::make('questions.index')
-			// ->with('title', 'Make it Snappy Q&A - Home');
-		echo 'branza';
+		return View::make('questions.index')
+			->with('title', 'Make it Snappy Q&A - Home');
 	}
 }
 
